@@ -129,6 +129,43 @@ myproject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/build
 .PHONY : myproject/fast
 
+#=============================================================================
+# Target rules for targets named provaprof
+
+# Build rule for target.
+provaprof: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 provaprof
+.PHONY : provaprof
+
+# fast build rule for target.
+provaprof/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/provaprof.dir/build.make CMakeFiles/provaprof.dir/build
+.PHONY : provaprof/fast
+
+esempioprof.o: esempioprof.cpp.o
+.PHONY : esempioprof.o
+
+# target to build an object file
+esempioprof.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/provaprof.dir/build.make CMakeFiles/provaprof.dir/esempioprof.cpp.o
+.PHONY : esempioprof.cpp.o
+
+esempioprof.i: esempioprof.cpp.i
+.PHONY : esempioprof.i
+
+# target to preprocess a source file
+esempioprof.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/provaprof.dir/build.make CMakeFiles/provaprof.dir/esempioprof.cpp.i
+.PHONY : esempioprof.cpp.i
+
+esempioprof.s: esempioprof.cpp.s
+.PHONY : esempioprof.s
+
+# target to generate assembly for a file
+esempioprof.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/provaprof.dir/build.make CMakeFiles/provaprof.dir/esempioprof.cpp.s
+.PHONY : esempioprof.cpp.s
+
 mediet.o: mediet.cpp.o
 .PHONY : mediet.o
 
@@ -162,6 +199,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... myproject"
+	@echo "... provaprof"
+	@echo "... esempioprof.o"
+	@echo "... esempioprof.i"
+	@echo "... esempioprof.s"
 	@echo "... mediet.o"
 	@echo "... mediet.i"
 	@echo "... mediet.s"
