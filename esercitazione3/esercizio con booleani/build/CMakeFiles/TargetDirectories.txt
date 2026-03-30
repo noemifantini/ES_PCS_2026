@@ -1,0 +1,3 @@
+/home/pcsdocker/Data/ES_PCS_2026/esercitazione3/esercizio con booleani/build/CMakeFiles/myproject.dir
+/home/pcsdocker/Data/ES_PCS_2026/esercitazione3/esercizio con booleani/build/CMakeFiles/edit_cache.dir
+/home/pcsdocker/Data/ES_PCS_2026/esercitazione3/esercizio con booleani/build/CMakeFiles/rebuild_cache.dir
