@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wshadow -Werror=vla -Wl,--dependency-file=CMakeFiles/test_differenza.dir/link.d CMakeFiles/test_differenza.dir/test_differenza.cpp.o -o test_differenza

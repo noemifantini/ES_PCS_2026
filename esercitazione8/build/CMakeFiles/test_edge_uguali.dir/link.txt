@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wshadow -Werror=vla -Wl,--dependency-file=CMakeFiles/test_edge_uguali.dir/link.d CMakeFiles/test_edge_uguali.dir/test_edge_uguali.cpp.o -o test_edge_uguali
