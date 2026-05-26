@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wshadow -Werror=vla -Wl,--dependency-file=CMakeFiles/test_gradiente_coniugato.dir/link.d CMakeFiles/test_gradiente_coniugato.dir/test_gradiente.cpp.o -o test_gradiente_coniugato
